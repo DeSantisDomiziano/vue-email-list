@@ -17,7 +17,7 @@
     <div id="app">
 
         <ul>
-            <li v-for="email in random_mail">
+            <li v-for="email in random_mail" v-if="random_mail.length == 10">
                 {{email}}
             </li>
         </ul>

@@ -4,7 +4,7 @@ createApp({
     data() {
       return {
         random_mail: [],
-        url: 'https://flynn.boolean.careers/exercises/api/random/mail'
+        url: 'https://flynn.boolean.careers/exercises/api/random/mail',
       }
     },
     mounted() {
